@@ -1,0 +1,38 @@
+.about {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  border-radius: 12px;
+  background-color: rgba(240, 248, 255, 0.241);
+  width: 80%;
+  margin-top: 15px;
+  margin-bottom: 15px;
+  -webkit-backdrop-filter: blur(10px);
+          backdrop-filter: blur(10px);
+  color: black;
+  text-shadow: 2px 2px rgba(240, 248, 255, 0.241);
+  padding-top: 10px;
+}
+
+.about .about-container {
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  width: 70%;
+}
+
+.about .about-container .about-container__info {
+  text-align: center;
+  font-size: 20px;
+}
+/*# sourceMappingURL=About.css.map */
