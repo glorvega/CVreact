@@ -1,25 +1,51 @@
 .me {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
     align-items: center;
+    gap: 113px;
   }
-  .card {
-    padding-left: 20px;
-    padding-right: 20px;
+  .card_info {
+    width: 450px;
+    font-size: 20px;
     text-align: center;
     border-radius: 12px;
     background-color: rgba(240, 248, 255, 0.241);
+    color: black;
+    text-shadow: 2px 2px rgba(240, 248, 255, 0.241);
+    backdrop-filter: blur(10px);
+    margin-bottom: 10px;
+
+    a {
+      color: #e6b8e6;
+      text-decoration: none;
+      text-shadow: none;
+    }
   }
+  
   img {
-    width: 150px;
-    margin: 20px;
+    width: 200px;
+    margin-left: 80px;
     border-radius: 20px;
   }
+
   h2 {
     color: black;
     text-shadow: 2px 2px rgba(240, 248, 255, 0.241);
+    font-size: 30px;
+    height: 40px;
+    cursor: pointer;
   }
-  a {
-    color: #0b0089;
-    text-decoration: none;
+
+  h2::before {
+    content: ''; display: block;
+    position: absolute; inset: 0;
+    height: 40px; width: 40px;
+    border-radius: 20px;
+    z-index: -1;
+    background: #a184ce;
+    transition: width 300ms;
   }
+  h2:is(:hover, :focus)::before {
+    width: 100%;
+  }
+

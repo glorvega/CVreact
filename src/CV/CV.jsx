@@ -10,20 +10,25 @@ export const CV = {
       gitHub: "https://github.com/glorvega",
       about: [
         {
-          info: "I'm an enthusiastic, responsible and hard-working programmer 💪🏼.",
+          info: "I'm an enthusiastic, responsible and hard-working programmer.",
         },
         {
-          info: "I am able to work well both in a team environment as well as using my own initiative 🤜🏼🤛🏼.",
+          info: "I am able to work well both in a team environment as well as using my own initiative  🤜🏼🤛🏼",
         },
         {
-          info: "As per my position expectations, I am flexible to work either remotely or onsite 👩🏻‍💻.",
+          info: "👩🏻‍💻As per my position expectations, I am flexible to work either remotely or onsite👩🏻‍💻",
         },
         {
-          info: "In order to reach strict deadlines, I proceed to remain calm and do the best I can, .",
+          info: "In order to reach strict deadlines: I set priorities, I tune out distractions and I ask for help when needed.",
         },
       ],
     },
     education: [
+      {
+        name: "Full Stack Development",
+        date: "2022",
+        where: "UpgradeHub",
+      },
       {
         name: "Master Degree in Audiovisual Translation. English-Spanish",
         date: "2016-2018",
@@ -34,19 +39,14 @@ export const CV = {
         date: "2011-2015",
         where: "Universidad de Córdoba",
       },
-      {
-        name: "Weapons Engineer",
-        date: "1998",
-        where: "Firearm Collegue, Queens",
-      },
     ],
     experience: [
       {
-        name: "Consultant",
-        date: "01/01/2013 – Nowadays",
-        where: "S.H.I.E.L.D",
+        name: "Administrative Assistant",
+        date: "10/2020 – 05-2022",
+        where: "Almacenamiento del Frío y Logística del Sur, Algeciras",
         description:
-          "It builds the helicarriers used by S.H.I.E.L.D. It produces the Quinjets used by the Avengers.",
+          "management of the necessary documents for the import and export of merchandise both inside and outside the port of Algeciras, in addition to the pertinent administration for the reception of containers of fruit, vegetables and dry goods (car accessories, automobiles and other types of merchandise).",
       },
       {
         name: "CEO",

@@ -2,10 +2,12 @@ import React from 'react'
 import './PersonalInfo.scss';
 
 const PersonalInfo = ({ personalInfo }) => {
+  /* let aboutToString = JSON.stringify(personalInfo.about); */
+  
   return (
     <div className="me">
       <img src={personalInfo.image} alt="pic" />
-      <div className="card">
+      <div className="card_info">
       <h2>
         {personalInfo.name} {personalInfo.lastName}
       </h2>
@@ -21,6 +23,7 @@ const PersonalInfo = ({ personalInfo }) => {
         <p>💾<a href={personalInfo.gitHub}>
             GitHub
           </a></p>
+  {/*         <p>{aboutToString}</p> */}
       </div>
     </div>
   );
