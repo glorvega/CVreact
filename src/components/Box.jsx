@@ -13,14 +13,12 @@ const Box = () => {
       
         return (
           <motion.li layout onClick={toggleOpen} initial={{ borderRadius: 10 }}>
-            {/* <motion.div className="avatar" layout /> */}
             <h1>{props.CvElement}</h1>
             <AnimatePresence>{isOpen && <Content component={props.CvElement}/>}</AnimatePresence>
           </motion.li>
         );
       }
 
-      
       
       function Content(props) {
         const {

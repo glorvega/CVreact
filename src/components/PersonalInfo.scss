@@ -36,16 +36,3 @@
     cursor: pointer;
   }
 
-  h2::before {
-    content: ''; display: block;
-    position: absolute; inset: 0;
-    height: 40px; width: 40px;
-    border-radius: 20px;
-    z-index: -1;
-    background: #a184ce;
-    transition: width 300ms;
-  }
-  h2:is(:hover, :focus)::before {
-    width: 100%;
-  }
-

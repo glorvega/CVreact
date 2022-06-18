@@ -23,10 +23,17 @@
 }
 
 .experience .experience_card {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
   -webkit-box-pack: center;
       -ms-flex-pack: center;
           justify-content: center;
-  width: 70%;
+  width: 90%;
 }
 
 .experience .experience_card .experience_card-info {
@@ -37,6 +44,11 @@
 }
 
 .experience .experience_card .experience_card-info .name {
+  font-size: 25px;
+  text-decoration: underline;
+}
+
+.experience_card-button {
   font-size: 25px;
 }
 /*# sourceMappingURL=Experience.css.map */

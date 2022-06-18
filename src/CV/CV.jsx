@@ -49,11 +49,18 @@ export const CV = {
           "management of the necessary documents for the import and export of merchandise both inside and outside the port of Algeciras, in addition to the pertinent administration for the reception of containers of fruit, vegetables and dry goods (car accessories, automobiles and other types of merchandise).",
       },
       {
-        name: "CEO",
-        date: "01/01/2000 – 28/02/2012",
-        where: "Stark Industries",
+        name: "Sales and Marketing Assistant",
+        date: "08/2017 - 03/2018",
+        where: "JD Sports Amsterdam",
         description:
-          "Manage the company, which is a multi-billion dollar multinational corporation that develops and manufactures advanced weapon and defense technologies. The company manufactures the armor worn by Iron Man and War Machine.",
+          "As a shop assistant in the heart of Amsterdam ─Nieuwendijk─ I got to know a lot about customer service and stressful shifts. there would always be work to do, like customer service, restocking products and update the prices, dressing the mannequins, frame folding general t-shirts and premium folding the most exclusive ones, handling the cash register, and so on.",
+      },
+      {
+        name: "Bartender",
+        date: "03/2017 – 07/2018",
+        where: "The Waterhole Rock Music Bar, Amsterdam",
+        description:
+          "This is one of the most crowded and busiest bars in the core of the city, the outstanding Leidseplein. It is amazing to meet hundreds of people from whole different countries and with different cultures every day and I even got to enjoy working with wonderful coworkers and listening to music concerts at the same time.",
       },
     ],
     languages: {
@@ -70,20 +77,6 @@ export const CV = {
       "Money",
       "Dating",
       "Saving the world",
-    ],
-    volunteer: [
-      {
-        name: "September Foundation",
-        where: "MIT",
-        description:
-          "The September Foundation is a program by Tony Stark to fund schools and young prodigies in their education. The foundation was named by Stark after a lyric from The Fantasticks song, 'Try to Remember,' which he heard his mother sing and play on the piano before her death.",
-      },
-      {
-        name: "Damage Control",
-        where: "U.S.A.",
-        description:
-          "The United States Department of Damage Control, occasionally known as the DODC, is a department of the United States of America. Initially a subsidiary of S.H.I.E.L.D., Damage Control was an organization specializing in post-battle clean-up. Following the Battle of New York, Damage Control was made into an executive branch of the United States government, and in a joint venture with Stark Industries, was tasked with acquiring alien and other dangerous artifacts along with cleaning up damages caused by enhanced individuals.",
-      },
     ],
   };
 

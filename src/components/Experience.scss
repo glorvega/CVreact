@@ -12,10 +12,12 @@
     padding-top: 10px;
 
   .experience_card {
+    display: flex;
+    flex-direction: column;
     justify-content: center;
-    width: 70%;
+    width: 90%;
 
-    .experience_card-info{
+  .experience_card-info{
       text-align: center;
       font-size: 20px;
       color: black;
@@ -23,7 +25,12 @@
 
     .name {
         font-size: 25px;
+        text-decoration: underline;
     }
     }
   }
+}
+
+.experience_card-button {
+  font-size: 25px;
 }
