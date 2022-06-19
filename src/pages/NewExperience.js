@@ -29,7 +29,7 @@ const NewExperience = () => {
         </label>
         <label>
             <span>Job description</span>
-            <input type="text" name="description" {...register('description')}/>
+            <input className="resizable" type="text" name="description" {...register('description')}/>
         </label>
         <button>Add experience</button>
     </form>

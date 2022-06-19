@@ -5,7 +5,7 @@ import NavbarTest from "./components/NavbarTest";
 import Education from "./components/Education";
 import Home from "./components/Home";
 import "./App.scss";
-import Darkmode from "./components/Darkmode";
+/* import Darkmode from "./components/Darkmode"; */
 import { CV } from "./CV/CV";
 /* import Experience from './components/Experience'; */
 import Box from "./components/Box";
@@ -26,7 +26,7 @@ function App() {
   return (
     <div className={isdarkMode ? 'AppDrk' : 'App'}>
       <NavbarTest />
-      <Darkmode/>
+
 
       <Routes>
         <Route path="/" element={<Home />}>

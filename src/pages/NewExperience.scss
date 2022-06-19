@@ -4,4 +4,10 @@
     align-items: flex-end;
     gap: 5px;
     width: 400px;
+
+    .resizable {
+        height: 5rem;
+        overflow: auto;
+        resize: auto;
+    }
 }

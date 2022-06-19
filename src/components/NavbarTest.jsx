@@ -4,6 +4,7 @@ import { Link, Route, Routes } from "react-router-dom";
 import NewExperience from "../pages/NewExperience";
 import CVen from "../CV/CVen.pdf";
 import CVes from "../CV/CVes.pdf";
+import Darkmode from "./Darkmode";
 
 const NavbarTest = () => {
     //To see the darkMode
@@ -24,6 +25,7 @@ const NavbarTest = () => {
             <Routes>
                 <Route path="/newExperience" element={<NewExperience/>} />
             </Routes>
+            <Darkmode/>
             </Navbar.Collapse>
         </Container>
         </Navbar>  

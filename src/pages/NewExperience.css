@@ -12,4 +12,10 @@
   gap: 5px;
   width: 400px;
 }
+
+.experienceForm .resizable {
+  height: 5rem;
+  overflow: auto;
+  resize: auto;
+}
 /*# sourceMappingURL=NewExperience.css.map */

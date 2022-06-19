@@ -3,6 +3,8 @@ import { useDispatch, useSelector } from "react-redux";
 import { handledarkMode } from "../redux/darkmode.actions";
 import "./Darkmode.scss";
 
+//implementar spanishMode
+
 const Darkmode = () => {
   //Creamos la constante dispatch con el hook useDispatch de redux para lanzar las acciones más adelante
   const dispatch = useDispatch();
@@ -25,22 +27,26 @@ const Darkmode = () => {
     document.body.style.backgroundColor = isdarkMode ? "#292c35" : "#fff";
   }, [isdarkMode]); */
   return (
-    <div
-      id="darkmode"
-      // inline styling with darkmode:  comment out to use this for example //
-      /* style={{ background: isdarkMode ? "white" : "yellow" }} */
-    >
-      <input
-        type="checkbox"
-        className="checkbox"
-        id="checkbox"
-        // onChange prop to fire our internal function for changing the dark mode value
+
+
+<div id="darkmode">
+<div className="toggle-theme-wrapper">
+      <span>☀️</span>
+      <label className="toggle-theme" htmlFor="checkbox">
+        <input
+          type="checkbox"
+          id="checkbox"
+          // onChange prop to fire our internal function for changing the dark mode value
         onChange={switchDarkMode}
         // checking checked prop with dark mode state
         checked={isdarkMode}
-      />
-      <label htmlFor="checkbox" className="label"></label>
+
+        />
+        <div className="slider round"></div>
+      </label>
+      <span>🌒</span>
     </div>
+</div>
   );
 };
 
